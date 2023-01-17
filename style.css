@@ -1,0 +1,47 @@
+body {
+    background-image: url(b4e371619042d1e80918d09904e90f7d.gif);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.card {
+    width: 2000px;
+    height:900px;
+    background-color: black;
+    
+}
+
+h1 {
+    font-family: impact;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+ul {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
+a {
+    font: 30px;
+    color: yellowgreen;
+}
+
+p {
+    font-size: 20px;
+}
+
+.titulo {
+    color: greenyellow;
+}
