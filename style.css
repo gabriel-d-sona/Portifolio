@@ -1,17 +1,48 @@
 body {
-    background-image: url(b4e371619042d1e80918d09904e90f7d.gif);
     color: white;
+    background-color: black;
     text-align: center;
     font-weight: bolder;
+    z-index: 1;
 
 }
 
+.fundo {
+    position: absolute;
+    width: 1200px;
+    left: 0px;
+    top: 0px;
+}
+
+.fundo1 {
+    position: absolute;
+    width: 1200px;
+    left: 705px;
+    top: 0px;
+}
+
+.matrix {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+.matrix1 {
+    position: absolute;
+    top: 716px;
+    left: 500px;
+}
+
 .card {
-    width: 2000px;
-    height:900px;
+    width: 900px;
+    height:950px;
     background-color: black;
     opacity: 1;
-    
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    z-index: 2;
+    border: 5px solid green;
 }
 
 h1 {
@@ -30,8 +61,7 @@ h3 {
 ul {
     font-size: 30px;
     font-style: italic;
-    text-decoration: underline;
-    
+
 }
 
 a {
@@ -57,4 +87,14 @@ p {
 
 .Foto {
     border-radius: 50%;
+  }
+
+  li:hover {
+    background-color: rgb(47, 136, 25);
+    color: black;
+  }
+
+  a:hover {
+    background-color: white;
+    color: rgb(47, 136, 25);
   }
