@@ -7,15 +7,20 @@ body {
 
 }
 
-.fundo {
+.conteudo {
     position: absolute;
+    left: 60px;
+}
+
+.fundo {
+    position: fixed;
     width: 1200px;
     left: 0px;
     top: 0px;
 }
 
 .fundo1 {
-    position: absolute;
+    position: fixed;
     width: 1200px;
     left: 705px;
     top: 0px;
@@ -61,18 +66,16 @@ h3 {
 ul {
     font-size: 30px;
     font-style: italic;
-
 }
 
-a {
+.link {
     background-color: rgb(47, 136, 25);
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 16px;  
 }
 
 p {
@@ -98,3 +101,7 @@ p {
     background-color: white;
     color: rgb(47, 136, 25);
   }
+
+.trybe {
+    color: greenyellow;
+}
